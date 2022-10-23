@@ -52,7 +52,7 @@
   color: #FFFFFF;
   font-size: 8vw;
   font-family: Roboto;
-  font-weight: lighter;
+  font-weight: regular;
 }
 
 .btn-menu {
@@ -107,6 +107,10 @@
   }
 }
 /* icon font */
+.about-container {
+  margin-bottom: -4vw;
+}
+
 .row {
   margin: 15vw;
 }
