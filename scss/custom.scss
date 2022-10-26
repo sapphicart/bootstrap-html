@@ -1,3 +1,5 @@
+@import "../node_modules/bootstrap/scss/functions";
+
 .nav-item {
   margin-right: 2vw;
   margin-left: 2vw;
@@ -5,6 +7,7 @@
   margin-bottom: 1vw;
   font-family: Roboto;
   font-weight: lighter;
+  text-transform: uppercase;
 }
 
 .navbar-brand {
@@ -13,6 +16,7 @@
   font-size: 30px;
   font-family: Roboto;
   font-weight: lighter;
+  color:#F2F2EB;
 }
 
 .navbar-nav {
@@ -21,6 +25,8 @@
 
 .btn-sm {
   background-color: #ed533a;
+  text-transform: uppercase;
+  color: #F2F2EB;
 }
 
 .container-fluid {
@@ -309,7 +315,92 @@
   margin-top: 8vw;
 }
 
-@import "../node_modules/bootstrap/scss/functions";
+.about-text {
+  font-family: Roboto;
+  color:#F2F2EB;
+  font-size: 2vw;
+  margin-top: 5vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 5vw;
+}
+
+/* Contact Page */
+
+.contact-heading {
+  font-family: Roboto;
+  font-weight: lighter;
+  color: #FFFFFF;
+  font-size: 5vw;
+  margin-top: 8vw;
+  margin-bottom: 5vw;
+}
+
+.bi-telephone, .bi-envelope, .bi-geo-alt {
+  margin-top: 2vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-bottom: 7vw;
+  color: #F2F2EB;
+}
+
+.map-container{
+  overflow:hidden;
+  padding: bottom 50px;
+  margin-bottom: 10vw;
+  position:relative;
+  height:0;
+}
+
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+/* Menu */
+
+.menu-heading {
+  font-family: Roboto;
+  font-weight: lighter;
+  color: #FFFFFF;
+  font-size: 5vw;
+  margin-top: 8vw;
+  margin-bottom: 5vw;
+}
+
+.menu-text-heading {
+  margin-bottom: 6vw;
+  font-family: Roboto;
+  font-weight: lighter;
+  font-size: 4vw;
+  color: #F2F2EB;
+}
+
+.menu-text {
+  margin-left: 3vw;
+  font-family: Roboto;
+  color:#F2F2EB;
+  font-size: 2vw;
+  text-align: left;
+}
+
+.menu-price {
+  margin-right: 3vw;
+  font-family: Roboto;
+  color:#F2F2EB;
+  font-size: 2vw;
+  text-align: right;
+}
+
+.asterisk {
+  text-align: right;
+  font-family: Roboto;
+  font-size: 1vw;
+  color: #F2F2EB;
+}
 
 // 2. Include any default variable overrides here
 $link-hover-color: #A6A6A6;
