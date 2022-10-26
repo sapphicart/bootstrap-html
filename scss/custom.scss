@@ -1,5 +1,21 @@
 @import "../node_modules/bootstrap/scss/functions";
 
+.img-fluid, .container-fluid, .row, .col, .asterisk {
+  animation-duration: 2.5s;
+  animation-name: fadeInOut;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+@keyframes fadeInOut {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 .nav-item {
   margin-right: 2vw;
   margin-left: 2vw;
@@ -346,7 +362,6 @@
 
 .map-container{
   overflow:hidden;
-  padding: bottom 50px;
   margin-bottom: 10vw;
   position:relative;
   height:0;

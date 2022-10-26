@@ -1,4 +1,32 @@
 @charset "UTF-8";
+.img-fluid, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .row, .col, .asterisk {
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
+  -webkit-animation-name: fadeInOut;
+          animation-name: fadeInOut;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes fadeInOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .nav-item {
   margin-right: 2vw;
   margin-left: 2vw;
@@ -319,7 +347,6 @@
 
 .map-container {
   overflow: hidden;
-  padding: bottom 50px;
   margin-bottom: 10vw;
   position: relative;
   height: 0;
